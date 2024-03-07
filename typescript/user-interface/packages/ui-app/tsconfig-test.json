@@ -1,0 +1,39 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "composite": true,
+    "tsBuildInfoFile": "./.cache/.tsbuildinfo-test"
+  },
+  "references": [
+    {
+      "path": "../common-model/tsconfig-build.json"
+    },
+    {
+      "path": "../common-util/tsconfig-build.json"
+    },
+    {
+      "path": "../ui-core-components/tsconfig-build.json"
+    },
+    {
+      "path": "../ui-state/tsconfig-build.json"
+    },
+    {
+      "path": "../ui-util/tsconfig-build.json"
+    },
+    {
+      "path": "../weavess/tsconfig-build.json"
+    },
+    {
+      "path": "../weavess-core/tsconfig-build.json"
+    },
+    {
+      "path": "../webpack-config/tsconfig-build.json"
+    }
+  ],
+  "include": [
+    "src/**/*",
+    "__tests__/**/*",
+    "__mocks__/**/*",
+    "src/ts/components/analyst-ui/components/azimuth-slowness/fk-spectra-sample.json"
+  ]
+}

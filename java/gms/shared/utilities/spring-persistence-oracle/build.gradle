@@ -1,0 +1,23 @@
+apply plugin: 'java-library'
+
+dependencies {
+  api project(':java-utilities')
+  
+  implementation platform(libs.org.springframework.boot.spring.boot.dependencies)
+  implementation project(':frameworks-system-config')
+  implementation project(':workflow-coi')
+
+  implementation libs.org.springframework.boot.spring.boot.starter.data.jpa
+  implementation libs.com.oracle.ojdbc.ojdbc8
+  implementation libs.org.hibernate.hibernate.c3p0
+
+  // Google AutoValue
+  api libs.com.google.guava.guava
+  implementation libs.com.google.auto.value.auto.value.annotations
+  annotationProcessor libs.com.google.auto.value.auto.value.base
+}
+configurations {
+  all {
+    exclude group: 'org.apache.logging.log4j', module: 'log4j-slf4j-impl'
+  }
+}

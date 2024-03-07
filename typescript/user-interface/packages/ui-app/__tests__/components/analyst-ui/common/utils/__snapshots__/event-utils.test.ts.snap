@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Event utils getPreferredHypothesisInStage returns a valid preferred event hypothesis 1`] = `
+{
+  "preferred": {
+    "associatedSignalDetectionHypotheses": [
+      {
+        "id": {
+          "id": "20cc9505-efe3-3068-b7d5-59196f37992c",
+          "signalDetectionId": "012de1b9-8ae3-3fd4-800d-58665c3152cc",
+        },
+      },
+    ],
+    "id": {
+      "eventId": "eventID",
+      "hypothesisId": "hypothesisID",
+    },
+    "locationSolutions": [
+      {
+        "featurePredictions": {
+          "featurePredictions": [],
+        },
+        "id": "locationSolutionID",
+        "location": {
+          "depthKm": 3.3,
+          "latitudeDegrees": 1.1,
+          "longitudeDegrees": 2.2,
+          "time": 3600,
+        },
+        "locationBehaviors": [],
+        "locationRestraint": undefined,
+        "name": "",
+        "networkMagnitudeSolutions": [
+          {
+            "magnitude": {
+              "standardDeviation": 0,
+              "units": "MAGNITUDE",
+              "value": 1.2,
+            },
+            "magnitudeBehaviors": [],
+            "type": "MB",
+          },
+        ],
+      },
+    ],
+    "name": "event hypothesis",
+    "parentEventHypotheses": [],
+    "preferredLocationSolution": {
+      "featurePredictions": {
+        "featurePredictions": [],
+      },
+      "id": "locationSolutionID",
+      "location": {
+        "depthKm": 3.3,
+        "latitudeDegrees": 1.1,
+        "longitudeDegrees": 2.2,
+        "time": 3600,
+      },
+      "locationBehaviors": [],
+      "locationRestraint": undefined,
+      "name": "",
+      "networkMagnitudeSolutions": [
+        {
+          "magnitude": {
+            "standardDeviation": 0,
+            "units": "MAGNITUDE",
+            "value": 1.2,
+          },
+          "magnitudeBehaviors": [],
+          "type": "MB",
+        },
+      ],
+    },
+    "rejected": false,
+  },
+  "preferredBy": "preferredAnalyst",
+  "stage": {
+    "effectiveTime": 0,
+    "name": "AL1",
+  },
+}
+`;

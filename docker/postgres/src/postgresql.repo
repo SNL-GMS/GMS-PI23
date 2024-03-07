@@ -1,0 +1,8 @@
+# postgresql.repo
+
+[postgresql12]
+name=Postgresql 12 RHEL$releasever - $basearch
+baseurl=#POSTGRESQL_RPM_URL#/pub/repos/yum/12/redhat/rhel-$releasever-$basearch
+enabled=1
+gpgcheck=1
+gpgkey=#POSTGRESQL_RPM_URL#/pub/repos/yum/keys/PGDG-RPM-GPG-KEY-RHEL

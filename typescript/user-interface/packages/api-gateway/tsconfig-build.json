@@ -1,0 +1,21 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "composite": true,
+    "tsBuildInfoFile": "./.cache/.tsbuildinfo",
+    "rootDir": "src/ts"
+  },
+  "references": [
+    {
+      "path": "../common-model/tsconfig-build.json"
+    },
+    {
+      "path": "../common-util/tsconfig-build.json"
+    },
+    {
+      "path": "../webpack-config/tsconfig-build.json"
+    }
+  ],
+  "include": ["src/**/*"]
+}

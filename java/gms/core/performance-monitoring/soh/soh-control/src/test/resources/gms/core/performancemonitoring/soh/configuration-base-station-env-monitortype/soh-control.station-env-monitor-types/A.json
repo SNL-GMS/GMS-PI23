@@ -1,0 +1,27 @@
+[
+  {
+    "name": "A-station-env-monitor-types",
+    "constraints": [
+      {
+        "constraintType": "DEFAULT"
+      },
+      {
+        "constraintType": "STRING",
+        "criterion": "StationName",
+        "operator": {
+          "type": "IN",
+          "negated": false
+        },
+        "value": [
+          "StationA"
+        ]
+      }
+    ],
+    "parameters": {
+      "envMonitorTypes": [
+        "ENV_AUTHENTICATION_SEAL_BROKEN",
+        "ENV_ZEROED_DATA"
+      ]
+    }
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "composite": true,
+    "tsBuildInfoFile": "./.cache/.tsbuildinfo-test"
+  },
+  "references": [
+    {
+      "path": "../common-model/tsconfig-build.json"
+    },
+    {
+      "path": "../common-util/tsconfig-build.json"
+    },
+    {
+      "path": "../webpack-config/tsconfig-build.json"
+    }
+  ]
+}

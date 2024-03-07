@@ -1,0 +1,53 @@
+{
+  "compilerOptions": {
+    "module": "ES2020",
+    "target": "ES2020",
+    "noEmit": true,
+    "jsx": "react",
+    "declaration": true,
+    "declarationMap": true,
+    "allowJs": false,
+    "removeComments": false,
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "noImplicitAny": false,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "strictBindCallApply": true,
+    "strictNullChecks": false,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": false,
+    "resolveJsonModule": true,
+    "noImplicitReturns": true,
+    "importsNotUsedAsValues": "error",
+    "suppressImplicitAnyIndexErrors": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "pretty": true,
+    "moduleResolution": "Node",
+    "lib": ["ES2020", "DOM", "DOM.Iterable", "ScriptHost"],
+    "plugins": [
+      {
+        "name": "typescript-eslint-language-service"
+      }
+    ],
+    "types": ["node", "jest"],
+    "skipLibCheck": true,
+    "experimentalDecorators": true,
+    "preserveSymlinks": true
+  },
+  "exclude": [
+    ".vscode",
+    "build",
+    "config",
+    "coverage",
+    "dist",
+    "docs",
+    "nginx",
+    "node_modules",
+    "resources",
+    "lib",
+    "dist"
+  ]
+}

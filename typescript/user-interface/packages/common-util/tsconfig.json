@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "./lib",
+    "paths": {
+      "@gms/common-model": ["../common-model/src/ts/common-model.ts"],
+      "@gms/common-model/lib/*": ["../common-model/src/ts/*"]
+    }
+  },
+  "include": ["src/**/*", "__tests__/**/*", "__mocks__/**/*"]
+}

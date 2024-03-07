@@ -1,0 +1,10 @@
+apply plugin: 'java-library'
+
+dependencies {
+    api project(':signal-detection-dao')
+    api project(':station-definition-testfixtures')
+    api project(':waveform-testfixtures')
+    api project(':signal-detection-api')
+    api project(':bridge-utilities')
+    api project(':common-coi')
+}

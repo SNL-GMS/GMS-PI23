@@ -1,0 +1,1369 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`signal-detection-context-menu should build measure window menu item buildMeasurementModeContextMenuItem 1`] = `
+<Blueprint4.MenuItem
+  active={false}
+  data-cy="measure"
+  disabled={true}
+  multiline={false}
+  popoverProps={{}}
+  selected={false}
+  shouldDismissPopover={true}
+  text="Measure"
+>
+  <Blueprint4.MenuItem
+    active={false}
+    data-cy="show-hide-measure"
+    disabled={false}
+    multiline={false}
+    onClick={[Function]}
+    popoverProps={{}}
+    selected={false}
+    shouldDismissPopover={true}
+    text="Show A5/2"
+  />
+  <Blueprint4.MenuItem
+    active={false}
+    data-cy="hide-all"
+    disabled={false}
+    multiline={false}
+    onClick={[Function]}
+    popoverProps={{}}
+    selected={false}
+    shouldDismissPopover={true}
+    text="Hide all A5/2"
+  />
+  <Blueprint4.MenuItem
+    active={false}
+    disabled={false}
+    multiline={false}
+    onClick={[Function]}
+    popoverProps={{}}
+    selected={false}
+    shouldDismissPopover={true}
+    text="Show all A5/2 for associated"
+  />
+</Blueprint4.MenuItem>
+`;
+
+exports[`signal-detection-context-menu should have a consistent snapshot on mount 1`] = `
+<ul
+  class="bp4-menu"
+>
+  <li
+    class=""
+  >
+    <a
+      class="bp4-menu-item bp4-popover-dismiss"
+      data-cy="show-sd-details"
+      label="(Alt + click)"
+      tabindex="0"
+    >
+      <div
+        class="bp4-fill bp4-text-overflow-ellipsis"
+      >
+        Open signal detection details
+      </div>
+      <span
+        class="bp4-menu-item-label"
+      >
+        (Alt + click)
+      </span>
+    </a>
+  </li>
+  <li
+    class="bp4-submenu"
+  >
+    <span
+      class="bp4-popover-wrapper"
+    >
+      <span
+        aria-haspopup="true"
+        class="bp4-popover-target"
+      >
+        <a
+          class="bp4-menu-item bp4-disabled"
+          data-cy="set-phase"
+          label="(Ctrl + s)"
+          tabindex="-1"
+        >
+          <div
+            class="bp4-fill bp4-text-overflow-ellipsis"
+          >
+            Set phase
+          </div>
+          <span
+            class="bp4-menu-item-label"
+          >
+            (Ctrl + s)
+          </span>
+          <span
+            class="bp4-icon bp4-icon-caret-right bp4-submenu-icon"
+            icon="caret-right"
+          >
+            <svg
+              data-icon="caret-right"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+            >
+              <desc>
+                Open sub menu
+              </desc>
+              <path
+                d="M11 8c0-.15-.07-.28-.17-.37l-4-3.5A.495.495 0 006 4.5v7a.495.495 0 00.83.37l4-3.5c.1-.09.17-.22.17-.37z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </a>
+      </span>
+    </span>
+  </li>
+  <li
+    class="bp4-submenu"
+  >
+    <span
+      class="bp4-popover-wrapper"
+    >
+      <span
+        aria-haspopup="true"
+        class="bp4-popover-target"
+      >
+        <a
+          class="bp4-menu-item bp4-disabled"
+          data-cy="association-menu"
+          tabindex="-1"
+        >
+          <div
+            class="bp4-fill bp4-text-overflow-ellipsis"
+          >
+            Event association
+          </div>
+          <span
+            class="bp4-icon bp4-icon-caret-right bp4-submenu-icon"
+            icon="caret-right"
+          >
+            <svg
+              data-icon="caret-right"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+            >
+              <desc>
+                Open sub menu
+              </desc>
+              <path
+                d="M11 8c0-.15-.07-.28-.17-.37l-4-3.5A.495.495 0 006 4.5v7a.495.495 0 00.83.37l4-3.5c.1-.09.17-.22.17-.37z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </a>
+      </span>
+    </span>
+  </li>
+  <li
+    class=""
+  >
+    <a
+      class="bp4-menu-item bp4-disabled"
+      data-cy="show-fk"
+      tabindex="-1"
+    >
+      <div
+        class="bp4-fill bp4-text-overflow-ellipsis"
+      >
+        Show FK
+      </div>
+    </a>
+  </li>
+  <li
+    class=""
+  >
+    <a
+      class="bp4-menu-item bp4-disabled"
+      data-cy="reject-sd"
+      tabindex="-1"
+    >
+      <div
+        class="bp4-fill bp4-text-overflow-ellipsis"
+      >
+        Reject
+      </div>
+    </a>
+  </li>
+  <li
+    class="bp4-submenu"
+  >
+    <span
+      class="bp4-popover-wrapper"
+    >
+      <span
+        aria-haspopup="true"
+        class="bp4-popover-target"
+      >
+        <a
+          class="bp4-menu-item bp4-disabled"
+          data-cy="measure"
+          tabindex="-1"
+        >
+          <div
+            class="bp4-fill bp4-text-overflow-ellipsis"
+          >
+            Measure
+          </div>
+          <span
+            class="bp4-icon bp4-icon-caret-right bp4-submenu-icon"
+            icon="caret-right"
+          >
+            <svg
+              data-icon="caret-right"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+            >
+              <desc>
+                Open sub menu
+              </desc>
+              <path
+                d="M11 8c0-.15-.07-.28-.17-.37l-4-3.5A.495.495 0 006 4.5v7a.495.495 0 00.83.37l4-3.5c.1-.09.17-.22.17-.37z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </a>
+      </span>
+    </span>
+  </li>
+  <li
+    class=""
+  >
+    <a
+      class="bp4-menu-item bp4-popover-dismiss"
+      data-cy="menu-item-export"
+      tabindex="0"
+    >
+      <span
+        class="bp4-menu-item-icon"
+      >
+        <span
+          aria-hidden="true"
+          class="bp4-icon bp4-icon-export"
+          icon="export"
+          tabindex="-1"
+        >
+          <svg
+            data-icon="export"
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+          >
+            <path
+              d="M4 6c.28 0 .53-.11.71-.29L7 3.41V11c0 .55.45 1 1 1s1-.45 1-1V3.41l2.29 2.29c.18.19.43.3.71.3a1.003 1.003 0 00.71-1.71l-4-4C8.53.11 8.28 0 8 0s-.53.11-.71.29l-4 4A1.003 1.003 0 004 6zm11 5c-.55 0-1 .45-1 1v2H2v-2c0-.55-.45-1-1-1s-1 .45-1 1v3c0 .55.45 1 1 1h14c.55 0 1-.45 1-1v-3c0-.55-.45-1-1-1z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </span>
+      </span>
+      <div
+        class="bp4-fill bp4-text-overflow-ellipsis"
+      >
+        Export
+      </div>
+    </a>
+  </li>
+</ul>
+`;
+
+exports[`signal-detection-context-menu should have a function for checking if we can generate fk 1`] = `true`;
+
+exports[`signal-detection-context-menu should have basic props built on render 1`] = `
+{
+  "children": <SignalDetectionContextMenuContent
+    associateToNewEvent={[MockFunction]}
+    changeAssociation={[MockFunction]}
+    measurementMode={
+      {
+        "entries": {
+          "012de1b9-8ae3-3fd4-800d-58665c3152cc": true,
+        },
+        "mode": "Measurement",
+      }
+    }
+    rejectDetections={[MockFunction]}
+    sdIdsToShowFk={[]}
+    selectedSds={
+      [
+        {
+          "id": "012de1b9-8ae3-3fd4-800d-58665c3152cc",
+          "monitoringOrganization": "GMS",
+          "signalDetectionHypotheses": [
+            {
+              "featureMeasurements": [
+                {
+                  "channel": {
+                    "effectiveAt": 1636503404,
+                    "name": "ASAR.beam.SHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                  },
+                  "featureMeasurementType": "LONG_PERIOD_FIRST_MOTION",
+                  "measuredChannelSegment": {
+                    "id": {
+                      "channel": {
+                        "effectiveAt": 1636503404,
+                        "name": "ASAR.beam.SHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                      },
+                      "creationTime": 1636503404,
+                      "endTime": 1636503704,
+                      "startTime": 1636503404,
+                    },
+                  },
+                  "measurementValue": {
+                    "confidence": null,
+                    "referenceTime": 1636503404,
+                    "value": "INDETERMINATE",
+                  },
+                  "snr": null,
+                },
+                {
+                  "channel": {
+                    "effectiveAt": 1636503404,
+                    "name": "ASAR.beam.SHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                  },
+                  "featureMeasurementType": "ARRIVAL_TIME",
+                  "measuredChannelSegment": {
+                    "id": {
+                      "channel": {
+                        "effectiveAt": 1636503404,
+                        "name": "ASAR.beam.SHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                      },
+                      "creationTime": 1636503404,
+                      "endTime": 1636503704,
+                      "startTime": 1636503404,
+                    },
+                  },
+                  "measurementValue": {
+                    "arrivalTime": {
+                      "standardDeviation": 1.162,
+                      "value": 1636503404,
+                    },
+                    "travelTime": null,
+                  },
+                  "snr": {
+                    "standardDeviation": null,
+                    "units": "DECIBELS",
+                    "value": 8.9939442,
+                  },
+                },
+                {
+                  "channel": {
+                    "effectiveAt": 1636503404,
+                    "name": "ASAR.beam.SHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                  },
+                  "featureMeasurementType": "PHASE",
+                  "measuredChannelSegment": {
+                    "id": {
+                      "channel": {
+                        "effectiveAt": 1636503404,
+                        "name": "ASAR.beam.SHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                      },
+                      "creationTime": 1636503404,
+                      "endTime": 1636503704,
+                      "startTime": 1636503404,
+                    },
+                  },
+                  "measurementValue": {
+                    "confidence": 50,
+                    "referenceTime": 1636503404,
+                    "value": "P",
+                  },
+                  "snr": null,
+                },
+                {
+                  "channel": {
+                    "effectiveAt": 1636503404,
+                    "name": "ASAR.beam.SHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                  },
+                  "featureMeasurementType": "SHORT_PERIOD_FIRST_MOTION",
+                  "measuredChannelSegment": {
+                    "id": {
+                      "channel": {
+                        "effectiveAt": 1636503404,
+                        "name": "ASAR.beam.SHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                      },
+                      "creationTime": 1636503404,
+                      "endTime": 1636503704,
+                      "startTime": 1636503404,
+                    },
+                  },
+                  "measurementValue": {
+                    "confidence": null,
+                    "referenceTime": 1636503404,
+                    "value": "INDETERMINATE",
+                  },
+                  "snr": null,
+                },
+                {
+                  "channel": {
+                    "effectiveAt": 1636503404,
+                    "name": "ASAR.beam.SHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                  },
+                  "featureMeasurementType": "RECEIVER_TO_SOURCE_AZIMUTH",
+                  "measuredChannelSegment": {
+                    "id": {
+                      "channel": {
+                        "effectiveAt": 1636503404,
+                        "name": "ASAR.beam.SHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                      },
+                      "creationTime": 1636503404,
+                      "endTime": 1636503704,
+                      "startTime": 1636503404,
+                    },
+                  },
+                  "measurementValue": {
+                    "measuredValue": {
+                      "standardDeviation": 2.2089042,
+                      "units": "DEGREES",
+                      "value": 90.142121,
+                    },
+                    "referenceTime": null,
+                  },
+                  "snr": null,
+                },
+                {
+                  "channel": {
+                    "effectiveAt": 1636503404,
+                    "name": "ASAR.beam.SHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                  },
+                  "featureMeasurementType": "EMERGENCE_ANGLE",
+                  "measuredChannelSegment": {
+                    "id": {
+                      "channel": {
+                        "effectiveAt": 1636503404,
+                        "name": "ASAR.beam.SHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                      },
+                      "creationTime": 1636503404,
+                      "endTime": 1636503704,
+                      "startTime": 1636503404,
+                    },
+                  },
+                  "measurementValue": {
+                    "measuredValue": {
+                      "standardDeviation": null,
+                      "units": "DEGREES",
+                      "value": -1,
+                    },
+                    "referenceTime": null,
+                  },
+                  "snr": null,
+                },
+                {
+                  "channel": {
+                    "effectiveAt": 1636503404,
+                    "name": "ASAR.beam.SHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                  },
+                  "featureMeasurementType": "SLOWNESS",
+                  "measuredChannelSegment": {
+                    "id": {
+                      "channel": {
+                        "effectiveAt": 1636503404,
+                        "name": "ASAR.beam.SHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                      },
+                      "creationTime": 1636503404,
+                      "endTime": 1636503704,
+                      "startTime": 1636503404,
+                    },
+                  },
+                  "measurementValue": {
+                    "measuredValue": {
+                      "standardDeviation": 0.27,
+                      "units": "SECONDS_PER_DEGREE",
+                      "value": 7.1219535,
+                    },
+                    "referenceTime": null,
+                  },
+                  "snr": null,
+                },
+                {
+                  "channel": {
+                    "effectiveAt": 1636503404,
+                    "name": "ASAR.beam.SHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                  },
+                  "featureMeasurementType": "RECTILINEARITY",
+                  "measuredChannelSegment": {
+                    "id": {
+                      "channel": {
+                        "effectiveAt": 1636503404,
+                        "name": "ASAR.beam.SHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                      },
+                      "creationTime": 1636503404,
+                      "endTime": 1636503704,
+                      "startTime": 1636503404,
+                    },
+                  },
+                  "measurementValue": {
+                    "measuredValue": {
+                      "standardDeviation": null,
+                      "units": "UNITLESS",
+                      "value": -1,
+                    },
+                    "referenceTime": null,
+                  },
+                  "snr": null,
+                },
+                {
+                  "channel": {
+                    "effectiveAt": 1636503404,
+                    "name": "ASAR.beam.SHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                  },
+                  "featureMeasurementType": "AMPLITUDE_A5_OVER_2",
+                  "measuredChannelSegment": {
+                    "id": {
+                      "channel": {
+                        "effectiveAt": 1636503404,
+                        "name": "ASAR.beam.SHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                      },
+                      "creationTime": 1636503404,
+                      "endTime": 1636503704,
+                      "startTime": 1636503404,
+                    },
+                  },
+                  "measurementValue": {
+                    "amplitude": {
+                      "standardDeviation": 0.5,
+                      "units": "MAGNITUDE",
+                      "value": 5,
+                    },
+                    "period": 0.25,
+                    "startTime": 1636503404,
+                  },
+                  "snr": {
+                    "standardDeviation": null,
+                    "units": "DECIBELS",
+                    "value": 8.9939442,
+                  },
+                },
+              ],
+              "id": {
+                "id": "20cc9505-efe3-3068-b7d5-59196f37992c",
+                "signalDetectionId": "012de1b9-8ae3-3fd4-800d-58665c3152cc",
+              },
+              "monitoringOrganization": "GMS",
+              "parentSignalDetectionHypothesis": null,
+              "rejected": false,
+            },
+          ],
+          "station": {
+            "effectiveAt": null,
+            "name": "ASAR",
+          },
+        },
+      ]
+    }
+    setMeasurementModeEntries={[MockFunction]}
+    setSdIdsToShowFk={[MockFunction]}
+    signalDetectionDetailsCb={[MockFunction]}
+    signalDetections={
+      [
+        {
+          "id": "012de1b9-8ae3-3fd4-800d-58665c3152cc",
+          "monitoringOrganization": "GMS",
+          "signalDetectionHypotheses": [
+            {
+              "featureMeasurements": [
+                {
+                  "channel": {
+                    "effectiveAt": 1636503404,
+                    "name": "ASAR.beam.SHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                  },
+                  "featureMeasurementType": "LONG_PERIOD_FIRST_MOTION",
+                  "measuredChannelSegment": {
+                    "id": {
+                      "channel": {
+                        "effectiveAt": 1636503404,
+                        "name": "ASAR.beam.SHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                      },
+                      "creationTime": 1636503404,
+                      "endTime": 1636503704,
+                      "startTime": 1636503404,
+                    },
+                  },
+                  "measurementValue": {
+                    "confidence": null,
+                    "referenceTime": 1636503404,
+                    "value": "INDETERMINATE",
+                  },
+                  "snr": null,
+                },
+                {
+                  "channel": {
+                    "effectiveAt": 1636503404,
+                    "name": "ASAR.beam.SHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                  },
+                  "featureMeasurementType": "ARRIVAL_TIME",
+                  "measuredChannelSegment": {
+                    "id": {
+                      "channel": {
+                        "effectiveAt": 1636503404,
+                        "name": "ASAR.beam.SHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                      },
+                      "creationTime": 1636503404,
+                      "endTime": 1636503704,
+                      "startTime": 1636503404,
+                    },
+                  },
+                  "measurementValue": {
+                    "arrivalTime": {
+                      "standardDeviation": 1.162,
+                      "value": 1636503404,
+                    },
+                    "travelTime": null,
+                  },
+                  "snr": {
+                    "standardDeviation": null,
+                    "units": "DECIBELS",
+                    "value": 8.9939442,
+                  },
+                },
+                {
+                  "channel": {
+                    "effectiveAt": 1636503404,
+                    "name": "ASAR.beam.SHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                  },
+                  "featureMeasurementType": "PHASE",
+                  "measuredChannelSegment": {
+                    "id": {
+                      "channel": {
+                        "effectiveAt": 1636503404,
+                        "name": "ASAR.beam.SHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                      },
+                      "creationTime": 1636503404,
+                      "endTime": 1636503704,
+                      "startTime": 1636503404,
+                    },
+                  },
+                  "measurementValue": {
+                    "confidence": 50,
+                    "referenceTime": 1636503404,
+                    "value": "P",
+                  },
+                  "snr": null,
+                },
+                {
+                  "channel": {
+                    "effectiveAt": 1636503404,
+                    "name": "ASAR.beam.SHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                  },
+                  "featureMeasurementType": "SHORT_PERIOD_FIRST_MOTION",
+                  "measuredChannelSegment": {
+                    "id": {
+                      "channel": {
+                        "effectiveAt": 1636503404,
+                        "name": "ASAR.beam.SHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                      },
+                      "creationTime": 1636503404,
+                      "endTime": 1636503704,
+                      "startTime": 1636503404,
+                    },
+                  },
+                  "measurementValue": {
+                    "confidence": null,
+                    "referenceTime": 1636503404,
+                    "value": "INDETERMINATE",
+                  },
+                  "snr": null,
+                },
+                {
+                  "channel": {
+                    "effectiveAt": 1636503404,
+                    "name": "ASAR.beam.SHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                  },
+                  "featureMeasurementType": "RECEIVER_TO_SOURCE_AZIMUTH",
+                  "measuredChannelSegment": {
+                    "id": {
+                      "channel": {
+                        "effectiveAt": 1636503404,
+                        "name": "ASAR.beam.SHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                      },
+                      "creationTime": 1636503404,
+                      "endTime": 1636503704,
+                      "startTime": 1636503404,
+                    },
+                  },
+                  "measurementValue": {
+                    "measuredValue": {
+                      "standardDeviation": 2.2089042,
+                      "units": "DEGREES",
+                      "value": 90.142121,
+                    },
+                    "referenceTime": null,
+                  },
+                  "snr": null,
+                },
+                {
+                  "channel": {
+                    "effectiveAt": 1636503404,
+                    "name": "ASAR.beam.SHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                  },
+                  "featureMeasurementType": "EMERGENCE_ANGLE",
+                  "measuredChannelSegment": {
+                    "id": {
+                      "channel": {
+                        "effectiveAt": 1636503404,
+                        "name": "ASAR.beam.SHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                      },
+                      "creationTime": 1636503404,
+                      "endTime": 1636503704,
+                      "startTime": 1636503404,
+                    },
+                  },
+                  "measurementValue": {
+                    "measuredValue": {
+                      "standardDeviation": null,
+                      "units": "DEGREES",
+                      "value": -1,
+                    },
+                    "referenceTime": null,
+                  },
+                  "snr": null,
+                },
+                {
+                  "channel": {
+                    "effectiveAt": 1636503404,
+                    "name": "ASAR.beam.SHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                  },
+                  "featureMeasurementType": "SLOWNESS",
+                  "measuredChannelSegment": {
+                    "id": {
+                      "channel": {
+                        "effectiveAt": 1636503404,
+                        "name": "ASAR.beam.SHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                      },
+                      "creationTime": 1636503404,
+                      "endTime": 1636503704,
+                      "startTime": 1636503404,
+                    },
+                  },
+                  "measurementValue": {
+                    "measuredValue": {
+                      "standardDeviation": 0.27,
+                      "units": "SECONDS_PER_DEGREE",
+                      "value": 7.1219535,
+                    },
+                    "referenceTime": null,
+                  },
+                  "snr": null,
+                },
+                {
+                  "channel": {
+                    "effectiveAt": 1636503404,
+                    "name": "ASAR.beam.SHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                  },
+                  "featureMeasurementType": "RECTILINEARITY",
+                  "measuredChannelSegment": {
+                    "id": {
+                      "channel": {
+                        "effectiveAt": 1636503404,
+                        "name": "ASAR.beam.SHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                      },
+                      "creationTime": 1636503404,
+                      "endTime": 1636503704,
+                      "startTime": 1636503404,
+                    },
+                  },
+                  "measurementValue": {
+                    "measuredValue": {
+                      "standardDeviation": null,
+                      "units": "UNITLESS",
+                      "value": -1,
+                    },
+                    "referenceTime": null,
+                  },
+                  "snr": null,
+                },
+                {
+                  "channel": {
+                    "effectiveAt": 1636503404,
+                    "name": "ASAR.beam.SHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                  },
+                  "featureMeasurementType": "AMPLITUDE_A5_OVER_2",
+                  "measuredChannelSegment": {
+                    "id": {
+                      "channel": {
+                        "effectiveAt": 1636503404,
+                        "name": "ASAR.beam.SHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                      },
+                      "creationTime": 1636503404,
+                      "endTime": 1636503704,
+                      "startTime": 1636503404,
+                    },
+                  },
+                  "measurementValue": {
+                    "amplitude": {
+                      "standardDeviation": 0.5,
+                      "units": "MAGNITUDE",
+                      "value": 5,
+                    },
+                    "period": 0.25,
+                    "startTime": 1636503404,
+                  },
+                  "snr": {
+                    "standardDeviation": null,
+                    "units": "DECIBELS",
+                    "value": 8.9939442,
+                  },
+                },
+              ],
+              "id": {
+                "id": "20cc9505-efe3-3068-b7d5-59196f37992c",
+                "signalDetectionId": "012de1b9-8ae3-3fd4-800d-58665c3152cc",
+              },
+              "monitoringOrganization": "GMS",
+              "parentSignalDetectionHypothesis": null,
+              "rejected": false,
+            },
+          ],
+          "station": {
+            "effectiveAt": null,
+            "name": "ASAR",
+          },
+        },
+        {
+          "id": "012de1b9-8ae3-3fd4-800d-58123c3152cc",
+          "monitoringOrganization": "GMS",
+          "signalDetectionHypotheses": [
+            {
+              "featureMeasurements": [
+                {
+                  "channel": {
+                    "effectiveAt": 1636503404,
+                    "name": "ASAR.beam.BHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                  },
+                  "featureMeasurementType": "LONG_PERIOD_FIRST_MOTION",
+                  "measuredChannelSegment": {
+                    "id": {
+                      "channel": {
+                        "effectiveAt": 1636503404,
+                        "name": "ASAR.beam.BHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                      },
+                      "creationTime": 1636503404,
+                      "endTime": 1636503704,
+                      "startTime": 1636503404,
+                    },
+                  },
+                  "measurementValue": {
+                    "confidence": null,
+                    "referenceTime": 1636503404,
+                    "value": "INDETERMINATE",
+                  },
+                  "snr": null,
+                },
+                {
+                  "channel": {
+                    "effectiveAt": 1636503404,
+                    "name": "ASAR.beam.BHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                  },
+                  "featureMeasurementType": "ARRIVAL_TIME",
+                  "measuredChannelSegment": {
+                    "id": {
+                      "channel": {
+                        "effectiveAt": 1636503404,
+                        "name": "ASAR.beam.BHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                      },
+                      "creationTime": 1636503404,
+                      "endTime": 1636503704,
+                      "startTime": 1636503404,
+                    },
+                  },
+                  "measurementValue": {
+                    "arrivalTime": {
+                      "standardDeviation": null,
+                      "value": 1636503420,
+                    },
+                    "travelTime": null,
+                  },
+                  "snr": {
+                    "standardDeviation": null,
+                    "units": "DECIBELS",
+                    "value": 8.9939442,
+                  },
+                },
+                {
+                  "channel": {
+                    "effectiveAt": 1636503404,
+                    "name": "ASAR.beam.BHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                  },
+                  "featureMeasurementType": "PHASE",
+                  "measuredChannelSegment": {
+                    "id": {
+                      "channel": {
+                        "effectiveAt": 1636503404,
+                        "name": "ASAR.beam.BHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                      },
+                      "creationTime": 1636503404,
+                      "endTime": 1636503704,
+                      "startTime": 1636503404,
+                    },
+                  },
+                  "measurementValue": {
+                    "confidence": 50,
+                    "referenceTime": 1636503404,
+                    "value": "P",
+                  },
+                  "snr": null,
+                },
+                {
+                  "channel": {
+                    "effectiveAt": 1636503404,
+                    "name": "ASAR.beam.BHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                  },
+                  "featureMeasurementType": "SHORT_PERIOD_FIRST_MOTION",
+                  "measuredChannelSegment": {
+                    "id": {
+                      "channel": {
+                        "effectiveAt": 1636503404,
+                        "name": "ASAR.beam.BHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                      },
+                      "creationTime": 1636503404,
+                      "endTime": 1636503704,
+                      "startTime": 1636503404,
+                    },
+                  },
+                  "measurementValue": {
+                    "confidence": null,
+                    "referenceTime": 1636503404,
+                    "value": "INDETERMINATE",
+                  },
+                  "snr": null,
+                },
+                {
+                  "channel": {
+                    "effectiveAt": 1636503404,
+                    "name": "ASAR.beam.BHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                  },
+                  "featureMeasurementType": "RECEIVER_TO_SOURCE_AZIMUTH",
+                  "measuredChannelSegment": {
+                    "id": {
+                      "channel": {
+                        "effectiveAt": 1636503404,
+                        "name": "ASAR.beam.BHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                      },
+                      "creationTime": 1636503404,
+                      "endTime": 1636503704,
+                      "startTime": 1636503404,
+                    },
+                  },
+                  "measurementValue": {
+                    "measuredValue": {
+                      "standardDeviation": 2.2089042,
+                      "units": "DEGREES",
+                      "value": 90.142121,
+                    },
+                    "referenceTime": null,
+                  },
+                  "snr": null,
+                },
+                {
+                  "channel": {
+                    "effectiveAt": 1636503404,
+                    "name": "ASAR.beam.BHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                  },
+                  "featureMeasurementType": "EMERGENCE_ANGLE",
+                  "measuredChannelSegment": {
+                    "id": {
+                      "channel": {
+                        "effectiveAt": 1636503404,
+                        "name": "ASAR.beam.BHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                      },
+                      "creationTime": 1636503404,
+                      "endTime": 1636503704,
+                      "startTime": 1636503404,
+                    },
+                  },
+                  "measurementValue": {
+                    "measuredValue": {
+                      "standardDeviation": null,
+                      "units": "DEGREES",
+                      "value": -1,
+                    },
+                    "referenceTime": null,
+                  },
+                  "snr": null,
+                },
+                {
+                  "channel": {
+                    "effectiveAt": 1636503404,
+                    "name": "ASAR.beam.BHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                  },
+                  "featureMeasurementType": "SLOWNESS",
+                  "measuredChannelSegment": {
+                    "id": {
+                      "channel": {
+                        "effectiveAt": 1636503404,
+                        "name": "ASAR.beam.BHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                      },
+                      "creationTime": 1636503404,
+                      "endTime": 1636503704,
+                      "startTime": 1636503404,
+                    },
+                  },
+                  "measurementValue": {
+                    "measuredValue": {
+                      "standardDeviation": 0.27,
+                      "units": "SECONDS_PER_DEGREE",
+                      "value": 7.1219535,
+                    },
+                    "referenceTime": null,
+                  },
+                  "snr": null,
+                },
+                {
+                  "channel": {
+                    "effectiveAt": 1636503404,
+                    "name": "ASAR.beam.BHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                  },
+                  "featureMeasurementType": "RECTILINEARITY",
+                  "measuredChannelSegment": {
+                    "id": {
+                      "channel": {
+                        "effectiveAt": 1636503404,
+                        "name": "ASAR.beam.BHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                      },
+                      "creationTime": 1636503404,
+                      "endTime": 1636503704,
+                      "startTime": 1636503404,
+                    },
+                  },
+                  "measurementValue": {
+                    "measuredValue": {
+                      "standardDeviation": null,
+                      "units": "UNITLESS",
+                      "value": -1,
+                    },
+                    "referenceTime": null,
+                  },
+                  "snr": null,
+                },
+                {
+                  "channel": {
+                    "effectiveAt": 1636503404,
+                    "name": "ASAR.beam.BHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                  },
+                  "featureMeasurementType": "AMPLITUDE_A5_OVER_2",
+                  "measuredChannelSegment": {
+                    "id": {
+                      "channel": {
+                        "effectiveAt": 1636503404,
+                        "name": "ASAR.beam.BHZ/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                      },
+                      "creationTime": 1636503404,
+                      "endTime": 1636503704,
+                      "startTime": 1636503404,
+                    },
+                  },
+                  "measurementValue": {
+                    "amplitude": {
+                      "standardDeviation": 0.5,
+                      "units": "MAGNITUDE",
+                      "value": 5,
+                    },
+                    "period": 0.75,
+                    "startTime": 1636503422,
+                  },
+                  "snr": {
+                    "standardDeviation": null,
+                    "units": "DECIBELS",
+                    "value": 8.9939442,
+                  },
+                },
+              ],
+              "id": {
+                "id": "20cc9505-efe3-3068-b7d5-59196f37992d",
+                "signalDetectionId": "012de1b9-8ae3-3fd4-800d-58123c3152cc",
+              },
+              "monitoringOrganization": "GMS",
+              "parentSignalDetectionHypothesis": null,
+              "rejected": false,
+            },
+          ],
+          "station": {
+            "effectiveAt": null,
+            "name": "ASAR",
+          },
+        },
+        {
+          "id": "012de1b9-8ae3-3fd4-800d-58165c3152cc",
+          "monitoringOrganization": "GMS",
+          "signalDetectionHypotheses": [
+            {
+              "featureMeasurements": [
+                {
+                  "channel": {
+                    "effectiveAt": 1636503404,
+                    "name": "ASAR.beam.BHN/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                  },
+                  "featureMeasurementType": "LONG_PERIOD_FIRST_MOTION",
+                  "measuredChannelSegment": {
+                    "id": {
+                      "channel": {
+                        "effectiveAt": 1636503404,
+                        "name": "ASAR.beam.BHN/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                      },
+                      "creationTime": 1636503404,
+                      "endTime": 1636503704,
+                      "startTime": 1636503404,
+                    },
+                  },
+                  "measurementValue": {
+                    "confidence": null,
+                    "referenceTime": 1636503404,
+                    "value": "INDETERMINATE",
+                  },
+                  "snr": null,
+                },
+                {
+                  "channel": {
+                    "effectiveAt": 1636503404,
+                    "name": "ASAR.beam.BHN/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                  },
+                  "featureMeasurementType": "ARRIVAL_TIME",
+                  "measuredChannelSegment": {
+                    "id": {
+                      "channel": {
+                        "effectiveAt": 1636503404,
+                        "name": "ASAR.beam.BHN/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                      },
+                      "creationTime": 1636503404,
+                      "endTime": 1636503704,
+                      "startTime": 1636503404,
+                    },
+                  },
+                  "measurementValue": {
+                    "arrivalTime": {
+                      "standardDeviation": 1.162,
+                      "value": 1636503404,
+                    },
+                    "travelTime": null,
+                  },
+                  "snr": {
+                    "standardDeviation": null,
+                    "units": "DECIBELS",
+                    "value": 8.9939442,
+                  },
+                },
+                {
+                  "channel": {
+                    "effectiveAt": 1636503404,
+                    "name": "ASAR.beam.BHN/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                  },
+                  "featureMeasurementType": "PHASE",
+                  "measuredChannelSegment": {
+                    "id": {
+                      "channel": {
+                        "effectiveAt": 1636503404,
+                        "name": "ASAR.beam.BHN/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                      },
+                      "creationTime": 1636503404,
+                      "endTime": 1636503704,
+                      "startTime": 1636503404,
+                    },
+                  },
+                  "measurementValue": {
+                    "confidence": 50,
+                    "referenceTime": 1636503404,
+                    "value": "P",
+                  },
+                  "snr": null,
+                },
+                {
+                  "channel": {
+                    "effectiveAt": 1636503404,
+                    "name": "ASAR.beam.BHN/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                  },
+                  "featureMeasurementType": "SHORT_PERIOD_FIRST_MOTION",
+                  "measuredChannelSegment": {
+                    "id": {
+                      "channel": {
+                        "effectiveAt": 1636503404,
+                        "name": "ASAR.beam.BHN/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                      },
+                      "creationTime": 1636503404,
+                      "endTime": 1636503704,
+                      "startTime": 1636503404,
+                    },
+                  },
+                  "measurementValue": {
+                    "confidence": null,
+                    "referenceTime": 1636503404,
+                    "value": "INDETERMINATE",
+                  },
+                  "snr": null,
+                },
+                {
+                  "channel": {
+                    "effectiveAt": 1636503404,
+                    "name": "ASAR.beam.BHN/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                  },
+                  "featureMeasurementType": "RECEIVER_TO_SOURCE_AZIMUTH",
+                  "measuredChannelSegment": {
+                    "id": {
+                      "channel": {
+                        "effectiveAt": 1636503404,
+                        "name": "ASAR.beam.BHN/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                      },
+                      "creationTime": 1636503404,
+                      "endTime": 1636503704,
+                      "startTime": 1636503404,
+                    },
+                  },
+                  "measurementValue": {
+                    "measuredValue": {
+                      "standardDeviation": 2.2089042,
+                      "units": "DEGREES",
+                      "value": 90.142121,
+                    },
+                    "referenceTime": null,
+                  },
+                  "snr": null,
+                },
+                {
+                  "channel": {
+                    "effectiveAt": 1636503404,
+                    "name": "ASAR.beam.BHN/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                  },
+                  "featureMeasurementType": "EMERGENCE_ANGLE",
+                  "measuredChannelSegment": {
+                    "id": {
+                      "channel": {
+                        "effectiveAt": 1636503404,
+                        "name": "ASAR.beam.BHN/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                      },
+                      "creationTime": 1636503404,
+                      "endTime": 1636503704,
+                      "startTime": 1636503404,
+                    },
+                  },
+                  "measurementValue": {
+                    "measuredValue": {
+                      "standardDeviation": null,
+                      "units": "DEGREES",
+                      "value": -1,
+                    },
+                    "referenceTime": null,
+                  },
+                  "snr": null,
+                },
+                {
+                  "channel": {
+                    "effectiveAt": 1636503404,
+                    "name": "ASAR.beam.BHN/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                  },
+                  "featureMeasurementType": "SLOWNESS",
+                  "measuredChannelSegment": {
+                    "id": {
+                      "channel": {
+                        "effectiveAt": 1636503404,
+                        "name": "ASAR.beam.BHN/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                      },
+                      "creationTime": 1636503404,
+                      "endTime": 1636503704,
+                      "startTime": 1636503404,
+                    },
+                  },
+                  "measurementValue": {
+                    "measuredValue": {
+                      "standardDeviation": 0.27,
+                      "units": "SECONDS_PER_DEGREE",
+                      "value": 7.1219535,
+                    },
+                    "referenceTime": null,
+                  },
+                  "snr": null,
+                },
+                {
+                  "channel": {
+                    "effectiveAt": 1636503404,
+                    "name": "ASAR.beam.BHN/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                  },
+                  "featureMeasurementType": "RECTILINEARITY",
+                  "measuredChannelSegment": {
+                    "id": {
+                      "channel": {
+                        "effectiveAt": 1636503404,
+                        "name": "ASAR.beam.BHN/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                      },
+                      "creationTime": 1636503404,
+                      "endTime": 1636503704,
+                      "startTime": 1636503404,
+                    },
+                  },
+                  "measurementValue": {
+                    "measuredValue": {
+                      "standardDeviation": null,
+                      "units": "UNITLESS",
+                      "value": -1,
+                    },
+                    "referenceTime": null,
+                  },
+                  "snr": null,
+                },
+                {
+                  "channel": {
+                    "effectiveAt": 1636503404,
+                    "name": "ASAR.beam.BHN/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                  },
+                  "featureMeasurementType": "AMPLITUDE_A5_OVER_2",
+                  "measuredChannelSegment": {
+                    "id": {
+                      "channel": {
+                        "effectiveAt": 1636503404,
+                        "name": "ASAR.beam.BHN/beam,fk,coherent/steer,az_90.142deg,slow_7.122s_per_deg/06c0cb24-ab8f-3853-941d-bdf5e73a51b4",
+                      },
+                      "creationTime": 1636503404,
+                      "endTime": 1636503704,
+                      "startTime": 1636503404,
+                    },
+                  },
+                  "measurementValue": {
+                    "amplitude": {
+                      "standardDeviation": 0.5,
+                      "units": "MAGNITUDE",
+                      "value": 5,
+                    },
+                    "period": 1,
+                    "startTime": 1636503404,
+                  },
+                  "snr": {
+                    "standardDeviation": null,
+                    "units": "DECIBELS",
+                    "value": 8.9939442,
+                  },
+                },
+              ],
+              "id": {
+                "id": "20cc9505-efe3-3068-b7d5-59196f37992e",
+                "signalDetectionId": "012de1b9-8ae3-3fd4-800d-58165c3152cc",
+              },
+              "monitoringOrganization": "GMS",
+              "parentSignalDetectionHypothesis": null,
+              "rejected": false,
+            },
+          ],
+          "station": {
+            "effectiveAt": null,
+            "name": "ASAR",
+          },
+        },
+      ]
+    }
+    updateDetections={[MockFunction]}
+  />,
+  "store": {
+    "@@observable": [Function],
+    "dispatch": [Function],
+    "getState": [Function],
+    "replaceReducer": [Function],
+    "subscribe": [Function],
+  },
+}
+`;

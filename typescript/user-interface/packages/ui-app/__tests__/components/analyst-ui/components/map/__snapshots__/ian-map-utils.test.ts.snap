@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Ian map utils applyEventMultiSelectionLogic 1`] = `undefined`;
+
+exports[`Ian map utils applyEventMultiSelectionLogic 2`] = `undefined`;
+
+exports[`Ian map utils applySdMultiSelectionLogic 1`] = `undefined`;
+
+exports[`Ian map utils applySdMultiSelectionLogic 2`] = `undefined`;
+
+exports[`Ian map utils applyStationMultiSelectionLogic 1`] = `undefined`;
+
+exports[`Ian map utils applyStationMultiSelectionLogic 2`] = `undefined`;
+
+exports[`Ian map utils builds a map event correctly 1`] = `
+{
+  "activeAnalysts": [
+    "user1",
+    "user2",
+  ],
+  "confidenceSemiMajorAxis": undefined,
+  "confidenceSemiMajorAxisTrend": undefined,
+  "confidenceSemiMinorAxis": undefined,
+  "conflict": false,
+  "coverageSemiMajorAxis": undefined,
+  "coverageSemiMajorAxisTrend": undefined,
+  "coverageSemiMinorAxis": undefined,
+  "depthKm": 3.3,
+  "edgeEventType": "After",
+  "id": "eventID",
+  "isOpen": false,
+  "latitudeDegrees": 1.1,
+  "longitudeDegrees": 2.2,
+  "magnitudeMb": 1.2,
+  "magnitudeMl": undefined,
+  "magnitudeMs": undefined,
+  "preferred": "TBD",
+  "region": "TBD",
+  "rejected": "False",
+  "status": "IN_PROGRESS",
+  "time": 3600,
+}
+`;
+
+exports[`Ian map utils sdOnMouseEnterHandler should match snapshot 1`] = `undefined`;
+
+exports[`Ian map utils sdOnMouseLeaveHandler should match snapshot 1`] = `undefined`;
+
+exports[`Ian map utils selectEntitiesInBox match snapshot 1`] = `[]`;

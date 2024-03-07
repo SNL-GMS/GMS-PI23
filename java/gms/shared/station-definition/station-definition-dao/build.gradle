@@ -1,0 +1,26 @@
+plugins {
+    id('java-library')
+    id('java-test-fixtures')
+}
+
+dependencies {
+    api project(':frameworks-system-config')
+
+    api libs.org.apache.commons.commons.lang3
+    implementation libs.org.hibernate.hibernate.core
+    implementation libs.org.hibernate.hibernate.c3p0
+    implementation libs.org.hibernate.hibernate.entitymanager
+    implementation libs.org.postgresql.postgresql
+    implementation libs.com.vladmihalcea.hibernate.types52
+    implementation libs.com.oracle.ojdbc.ojdbc8
+    api libs.com.google.guava.guava
+    implementation libs.com.google.auto.value.auto.value.annotations
+    annotationProcessor libs.com.google.auto.value.auto.value.base
+    implementation project(':java-utilities')
+
+    implementation project(':bridge-utilities')
+    testImplementation project(':station-definition-testfixtures')
+
+    // Testing
+    testImplementation project(':test-utils')
+}

@@ -1,0 +1,259 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Workflow Panel shallow mounts 1`] = `
+<div
+  className="base-display "
+>
+  <ContextProvider
+    value={
+      {
+        "glContainer": {
+          "close": [MockFunction],
+          "emit": [MockFunction],
+          "extendState": [MockFunction],
+          "getElement": [MockFunction],
+          "getState": [MockFunction],
+          "height": 1200,
+          "hide": [MockFunction],
+          "isHidden": false,
+          "layoutManager": undefined,
+          "off": [MockFunction],
+          "on": [MockFunction],
+          "parent": undefined,
+          "setSize": [MockFunction],
+          "setState": [MockFunction],
+          "setTitle": [MockFunction],
+          "show": [MockFunction],
+          "tab": undefined,
+          "title": "workflow",
+          "trigger": [MockFunction],
+          "unbind": [MockFunction],
+          "width": 1900,
+        },
+        "heightPx": 1200,
+        "widthPx": 1900,
+      }
+    }
+  >
+    <Provider
+      store={
+        {
+          "@@observable": [Function],
+          "dispatch": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+        }
+      }
+    >
+      <WorkflowPanel
+        cleanupWorkflowIntervalQuery={[MockFunction]}
+        glContainer={
+          {
+            "close": [MockFunction],
+            "emit": [MockFunction],
+            "extendState": [MockFunction],
+            "getElement": [MockFunction],
+            "getState": [MockFunction],
+            "height": 1200,
+            "hide": [MockFunction],
+            "isHidden": false,
+            "layoutManager": undefined,
+            "off": [MockFunction],
+            "on": [MockFunction],
+            "parent": undefined,
+            "setSize": [MockFunction],
+            "setState": [MockFunction],
+            "setTitle": [MockFunction],
+            "show": [MockFunction],
+            "tab": undefined,
+            "title": "workflow",
+            "trigger": [MockFunction],
+            "unbind": [MockFunction],
+            "width": 1900,
+          }
+        }
+        operationalTimePeriodConfigurationQuery={
+          {
+            "currentData": undefined,
+            "data": {
+              "operationalPeriodEnd": 0,
+              "operationalPeriodStart": 3888000,
+            },
+            "endpointName": undefined,
+            "error": undefined,
+            "fulfilledTimeStamp": undefined,
+            "isError": false,
+            "isFetching": false,
+            "isLoading": false,
+            "isSuccess": true,
+            "isUninitialized": true,
+            "originalArgs": undefined,
+            "requestId": undefined,
+            "startedTimeStamp": undefined,
+            "status": undefined,
+          }
+        }
+        processingAnalystConfigurationQuery={
+          {
+            "currentData": undefined,
+            "data": undefined,
+            "endpointName": undefined,
+            "error": undefined,
+            "fulfilledTimeStamp": undefined,
+            "isError": false,
+            "isFetching": false,
+            "isLoading": false,
+            "isSuccess": true,
+            "isUninitialized": true,
+            "originalArgs": undefined,
+            "requestId": undefined,
+            "startedTimeStamp": undefined,
+            "status": undefined,
+          }
+        }
+        timeRange={
+          {
+            "endTimeSecs": 1609506000,
+            "startTimeSecs": 1609500000,
+          }
+        }
+        workflowIntervalQuery={
+          {
+            "currentData": undefined,
+            "data": [
+              {
+                "name": "AL1",
+                "value": [
+                  {
+                    "activityIntervals": [
+                      {
+                        "activeAnalysts": [
+                          "larry",
+                          "moe",
+                          "curly",
+                        ],
+                        "comment": "interval example",
+                        "endTime": 1622057187,
+                        "intervalId": {
+                          "definitionId": {
+                            "name": "AL1",
+                          },
+                          "startTime": 1622053587,
+                        },
+                        "modificationTime": 1622057667,
+                        "name": "Event Review",
+                        "percentAvailable": 100,
+                        "processingEndTime": 1622057547,
+                        "processingStartTime": 1622057487,
+                        "stageName": "AL1",
+                        "startTime": 1622053587,
+                        "status": "IN_PROGRESS",
+                        "storageTime": 1622057607,
+                      },
+                    ],
+                    "comment": "interval example",
+                    "endTime": 1622057187,
+                    "intervalId": {
+                      "definitionId": {
+                        "name": "AL1",
+                      },
+                      "startTime": 1622053587,
+                    },
+                    "modificationTime": 1622057667,
+                    "name": "AL1",
+                    "percentAvailable": 100,
+                    "processingEndTime": 1622057547,
+                    "processingStartTime": 1622057487,
+                    "stageMetrics": {
+                      "associatedSignalDetectionCount": 34,
+                      "eventCount": 21,
+                      "maxMagnitude": 8,
+                      "unassociatedSignalDetectionCount": 55,
+                    },
+                    "stageMode": "INTERACTIVE",
+                    "startTime": 1622053587,
+                    "status": "IN_PROGRESS",
+                    "storageTime": 1622057607,
+                  },
+                ],
+              },
+            ],
+            "endpointName": undefined,
+            "error": undefined,
+            "fulfilledTimeStamp": undefined,
+            "isError": false,
+            "isFetching": false,
+            "isLoading": false,
+            "isSuccess": true,
+            "isUninitialized": true,
+            "originalArgs": undefined,
+            "requestId": undefined,
+            "startedTimeStamp": undefined,
+            "status": undefined,
+          }
+        }
+        workflowQuery={
+          {
+            "currentData": undefined,
+            "data": {
+              "name": "gms",
+              "stages": [
+                {
+                  "activities": [
+                    {
+                      "analysisMode": "EVENT_REVIEW",
+                      "name": "Event Review",
+                      "stationGroup": {
+                        "description": "station group",
+                        "effectiveAt": 1622048927,
+                        "name": "station-group",
+                      },
+                    },
+                  ],
+                  "duration": 3600,
+                  "mode": "INTERACTIVE",
+                  "name": "AL1",
+                },
+                {
+                  "duration": 3600,
+                  "mode": "AUTOMATIC",
+                  "name": "Auto Network",
+                  "sequences": [
+                    {
+                      "name": "Auto Post-AL1 Seq",
+                      "steps": [
+                        {
+                          "name": "AAA",
+                        },
+                        {
+                          "name": "last-step",
+                        },
+                        {
+                          "name": "CCC",
+                        },
+                      ],
+                    },
+                  ],
+                },
+              ],
+            },
+            "endpointName": undefined,
+            "error": undefined,
+            "fulfilledTimeStamp": undefined,
+            "isError": false,
+            "isFetching": false,
+            "isLoading": false,
+            "isSuccess": true,
+            "isUninitialized": true,
+            "originalArgs": undefined,
+            "requestId": undefined,
+            "startedTimeStamp": undefined,
+            "status": undefined,
+          }
+        }
+      />
+    </Provider>
+  </ContextProvider>
+</div>
+`;

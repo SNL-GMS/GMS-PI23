@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`state user session slice should return the initial state 1`] = `
+{
+  "alignWaveformsOn": "Time",
+  "channelFilters": {},
+  "defaultSignalDetectionPhase": "P",
+  "effectiveNowTime": null,
+  "eventListOpenEventTriggered": false,
+  "historyActionInProgress": 0,
+  "hotkeyCycleOverrides": {},
+  "location": {
+    "selectedLocationSolutionId": null,
+    "selectedLocationSolutionSetId": null,
+    "selectedPreferredLocationSolutionId": null,
+    "selectedPreferredLocationSolutionSetId": null,
+  },
+  "mapOpenEventTriggered": false,
+  "measurementMode": {
+    "entries": {},
+    "mode": "Default",
+  },
+  "openEventId": null,
+  "openLayoutName": null,
+  "phaseToAlignOn": null,
+  "sdIdsToShowFk": [],
+  "selectedEventIds": [],
+  "selectedFilterIndex": null,
+  "selectedFilterList": null,
+  "selectedSdIds": [],
+  "selectedSortType": "Station: A-Z",
+}
+`;
+
+exports[`state user session slice should return the initial state 2`] = `
+{
+  "alignWaveformsOn": "Time",
+  "channelFilters": {},
+  "defaultSignalDetectionPhase": "P",
+  "effectiveNowTime": null,
+  "eventListOpenEventTriggered": false,
+  "historyActionInProgress": 0,
+  "hotkeyCycleOverrides": {},
+  "location": {
+    "selectedLocationSolutionId": null,
+    "selectedLocationSolutionSetId": null,
+    "selectedPreferredLocationSolutionId": null,
+    "selectedPreferredLocationSolutionSetId": null,
+  },
+  "mapOpenEventTriggered": false,
+  "measurementMode": {
+    "entries": {},
+    "mode": "Default",
+  },
+  "openEventId": null,
+  "openLayoutName": null,
+  "phaseToAlignOn": null,
+  "sdIdsToShowFk": [],
+  "selectedEventIds": [],
+  "selectedFilterIndex": null,
+  "selectedFilterList": null,
+  "selectedSdIds": [],
+  "selectedSortType": "Station: A-Z",
+}
+`;
+
+exports[`state user session slice should return the initial state 3`] = `
+{
+  "alignWaveformsOn": "Time",
+  "channelFilters": {},
+  "defaultSignalDetectionPhase": "P",
+  "effectiveNowTime": null,
+  "eventListOpenEventTriggered": false,
+  "historyActionInProgress": 0,
+  "hotkeyCycleOverrides": {},
+  "location": {
+    "selectedLocationSolutionId": null,
+    "selectedLocationSolutionSetId": null,
+    "selectedPreferredLocationSolutionId": null,
+    "selectedPreferredLocationSolutionSetId": null,
+  },
+  "mapOpenEventTriggered": false,
+  "measurementMode": {
+    "entries": {},
+    "mode": "Default",
+  },
+  "openEventId": null,
+  "openLayoutName": null,
+  "phaseToAlignOn": null,
+  "sdIdsToShowFk": [],
+  "selectedEventIds": [],
+  "selectedFilterIndex": null,
+  "selectedFilterList": null,
+  "selectedSdIds": [],
+  "selectedSortType": "Station: A-Z",
+}
+`;
+
+exports[`state user session slice should return the initial state 4`] = `
+{
+  "alignWaveformsOn": "Time",
+  "channelFilters": {},
+  "defaultSignalDetectionPhase": "P",
+  "effectiveNowTime": null,
+  "eventListOpenEventTriggered": false,
+  "historyActionInProgress": 0,
+  "hotkeyCycleOverrides": {},
+  "location": {
+    "selectedLocationSolutionId": null,
+    "selectedLocationSolutionSetId": null,
+    "selectedPreferredLocationSolutionId": null,
+    "selectedPreferredLocationSolutionSetId": null,
+  },
+  "mapOpenEventTriggered": false,
+  "measurementMode": {
+    "entries": {},
+    "mode": "Default",
+  },
+  "openEventId": null,
+  "openLayoutName": null,
+  "phaseToAlignOn": null,
+  "sdIdsToShowFk": [],
+  "selectedEventIds": [],
+  "selectedFilterIndex": null,
+  "selectedFilterList": null,
+  "selectedSdIds": [],
+  "selectedSortType": "Station: A-Z",
+}
+`;

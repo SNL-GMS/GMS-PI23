@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "composite": true,
+    "tsBuildInfoFile": "./.cache/.tsbuildinfo"
+  },
+  "references": [
+    {
+      "path": "../common-model/tsconfig-build.json"
+    },
+    {
+      "path": "../common-util/tsconfig-build.json"
+    }
+  ],
+  "include": ["src/**/*", "__tests__/**/*", "__mocks__/**/*", "__tests__/fixtures/**/*.json"]
+}

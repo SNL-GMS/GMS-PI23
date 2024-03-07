@@ -1,0 +1,27 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "composite": true,
+    "tsBuildInfoFile": "./.cache/.tsbuildinfo",
+    "rootDir": "src/ts"
+  },
+  "references": [
+    {
+      "path": "../common-util/tsconfig-build.json"
+    },
+    {
+      "path": "../ui-util/tsconfig-build.json"
+    },
+    {
+      "path": "../weavess/tsconfig-build.json"
+    },
+    {
+      "path": "../weavess-core/tsconfig-build.json"
+    },
+    {
+      "path": "../webpack-config/tsconfig-build.json"
+    }
+  ],
+  "include": ["src/**/*"]
+}

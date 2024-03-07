@@ -1,0 +1,2 @@
+The `soh-config-tool` source code has been moved to `test/gms-soh-config-tool` to prevent it from being scanned by Fortify.
+Before building, you must move the code back using `mv test/gms-soh-config-tool typescript/tools/gms-soh-config-tool`.

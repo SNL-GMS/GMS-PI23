@@ -1,0 +1,11 @@
+apply plugin: 'java-library'
+
+dependencies {
+
+    api project(':fk-coi')
+    api project(':fk-control-api')
+    api project(':waveform-coi')
+    api project(':station-definition-coi')
+    api project(':station-definition-testfixtures')
+    api project(':waveform-testfixtures')
+}

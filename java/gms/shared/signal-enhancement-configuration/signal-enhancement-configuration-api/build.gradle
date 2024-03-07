@@ -1,0 +1,27 @@
+plugins {
+    id 'java'
+}
+
+dependencies {
+
+    // Project dependencies
+    implementation project(':event-coi')
+    implementation project(':frameworks-system-config')
+    implementation project(':java-utilities')
+    implementation project(':signal-detection-coi')
+    implementation project(':signal-enhancement-configuration-coi')
+
+    // Google AutoValue
+    implementation libs.com.google.auto.value.auto.value.annotations
+    annotationProcessor libs.com.google.auto.value.auto.value.base
+    
+    // Web Client
+    implementation libs.org.springframework.boot.spring.boot.starter
+    implementation libs.org.springframework.spring.webflux
+
+    // Unit testing dependencies
+    testImplementation libs.io.projectreactor.reactor.test
+    testImplementation(testFixtures(project(':event-coi')))
+    testImplementation project(':signal-detection-testfixtures')
+    testImplementation project(':test-utils')
+}
