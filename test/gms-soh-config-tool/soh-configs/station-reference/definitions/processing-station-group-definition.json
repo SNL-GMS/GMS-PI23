@@ -144,12 +144,6 @@
         ]
     },
     {
-        "name": "MiniSD",
-        "description": "Stations in the MiniSeed format",
-        "stationNames": [
-        ]
-    },
-    {
         "name": "GSE",
         "description": "Stations in the GSE format",
         "stationNames": [
